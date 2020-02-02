@@ -1,0 +1,34 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	int age = 16;
+	int age2 = 24;
+	double moneyInWallet = 315.70;
+	double moneyInWallet2 = 37.96;
+	int numberOfFriends = 7;
+	int numberOfFriends2 = 4;
+	double pokemonCard = 3.99;
+	double concertTickets = 189.60;
+	String firstName = "Leon";
+	String firstName2 = "Atreus";
+	char middleInitial = 'K';
+	char middleInitial2 = 'R';
+	String lastName = "Kennedy";
+	String lastName2 = "Loki";
+	
+	System.out.println(moneyInWallet - concertTickets);
+	System.out.println(moneyInWallet2 - pokemonCard);
+	System.out.println(firstName + " " + middleInitial + " " + lastName);
+	System.out.println(firstName2 + " " + middleInitial2 + " " + lastName2);
+	System.out.println("Hello, my name is" + " " + firstName + " " + middleInitial + " " + lastName + ". " + "I am" + " " + age2);
+	System.out.println("Hello, my name is" + " " + firstName2 + " " + middleInitial2 + " " + lastName2 + ". " + "I am" + " " + age);
+	System.out.println(age/numberOfFriends2);
+	System.out.println(age2/numberOfFriends);
+	
+	
+	
+	}}
+	
