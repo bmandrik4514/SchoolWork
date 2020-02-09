@@ -1,0 +1,25 @@
+public class Assignment2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		boolean isHotOutside = true;
+		boolean isWeekDay = true;
+		boolean hasMoneyInPocket = true; 
+		double costOfMilk = 11.97;
+		double moneyInWallet = 36.77;
+		int thirstLevel = 7;
+		
+		boolean shouldBuyIceCream = hasMoneyInPocket && isHotOutside;
+		boolean willGoSwimming = isHotOutside && !isWeekDay;
+		boolean isAGoodDay = isHotOutside && hasMoneyInPocket && !isWeekDay;
+		boolean willBuyMilk = isHotOutside && (thirstLevel > 3) && (moneyInWallet >= (2 * costOfMilk));
+			
+		System.out.println(shouldBuyIceCream);
+		System.out.println(willGoSwimming);
+		System.out.println(isAGoodDay);
+		System.out.println(willBuyMilk);
+				
+	}
+
+}
